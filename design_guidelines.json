@@ -1,0 +1,161 @@
+{
+  "project_name": "Digital Gram Panchayat Portal",
+  "design_philosophy": {
+    "theme": "Government Professional & Accessible",
+    "core_values": [
+      "Trustworthiness (Vishwas)",
+      "Transparency (Pardarshakata)",
+      "Accessibility (Sulabhata)",
+      "Community (Samaj)"
+    ],
+    "mood": "Clean, Authoritative, Welcoming, Rural-Modern",
+    "visual_style": "Minimalist Government Interface (GIGW Inspired)"
+  },
+  "typography": {
+    "font_family_primary": "Mukta, sans-serif",
+    "font_family_secondary": "Inter, sans-serif",
+    "font_weights": {
+      "regular": 400,
+      "medium": 500,
+      "bold": 700,
+      "extrabold": 800
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl font-bold tracking-tight leading-tight",
+      "h2": "text-3xl md:text-4xl font-bold tracking-tight",
+      "h3": "text-2xl font-bold text-slate-900",
+      "body_lg": "text-lg leading-relaxed",
+      "body_base": "text-base leading-relaxed text-slate-700",
+      "caption": "text-sm text-slate-500",
+      "nav": "text-base font-medium hover:text-orange-600 transition-colors"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "name": "Saffron (Bhagwa)",
+        "hex": "#f97316",
+        "tailwind": "orange-500",
+        "usage": "Call to Actions, Active States, Highlights, Buttons"
+      },
+      "secondary": {
+        "name": "Navy Blue (Prashasan)",
+        "hex": "#0f172a",
+        "tailwind": "slate-900",
+        "usage": "Headers, Footers, Primary Text, Strong Borders"
+      },
+      "accent": {
+        "name": "Agriculture Green (Krishi)",
+        "hex": "#16a34a",
+        "tailwind": "green-600",
+        "usage": "Success messages, Financial data, Nature elements"
+      },
+      "neutral": {
+        "background": "#ffffff",
+        "surface": "#f8fafc",
+        "border": "#e2e8f0",
+        "text_primary": "#0f172a",
+        "text_secondary": "#475569"
+      },
+      "status": {
+        "error": "#ef4444",
+        "warning": "#f59e0b",
+        "info": "#3b82f6",
+        "success": "#22c55e"
+      }
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(to right, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.4))",
+      "subtle_surface": "linear-gradient(to bottom, #ffffff, #f8fafc)"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_padding": "py-12 md:py-20",
+      "element_gap": "gap-6 md:gap-8"
+    },
+    "grid_system": {
+      "bento_dashboard": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+      "cards_standard": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+    },
+    "border_radius": {
+      "card": "rounded-lg",
+      "button": "rounded-md",
+      "input": "rounded-md"
+    },
+    "shadows": {
+      "card": "shadow-sm hover:shadow-md transition-shadow duration-200",
+      "floating": "shadow-xl shadow-slate-200/50"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-orange-500 hover:bg-orange-600 text-white font-bold py-2.5 px-6 rounded-md shadow-sm transition-all focus:ring-2 focus:ring-orange-500 focus:ring-offset-2",
+      "secondary": "bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 font-medium py-2.5 px-6 rounded-md transition-all",
+      "outline": "border-2 border-orange-500 text-orange-600 hover:bg-orange-50 font-bold py-2 px-6 rounded-md transition-all"
+    },
+    "cards": {
+      "feature": "bg-white p-6 rounded-lg border border-slate-100 shadow-sm hover:border-orange-200 hover:shadow-md transition-all group",
+      "stat": "bg-white p-6 rounded-lg border-l-4 border-orange-500 shadow-sm",
+      "notice": "bg-white p-4 rounded-md border border-slate-200 flex items-start gap-4 hover:bg-slate-50 transition-colors cursor-pointer"
+    },
+    "navigation": {
+      "header": "bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm",
+      "nav_link": "text-slate-700 hover:text-orange-600 font-medium px-3 py-2 rounded-md transition-colors",
+      "mobile_menu": "bg-white border-t border-slate-100 shadow-lg"
+    },
+    "admin_sidebar": {
+      "container": "bg-slate-900 text-white w-64 min-h-screen fixed left-0 top-0",
+      "link": "flex items-center gap-3 px-4 py-3 text-slate-300 hover:bg-slate-800 hover:text-white transition-colors rounded-r-full mr-2",
+      "link_active": "bg-orange-600 text-white"
+    }
+  },
+  "assets": {
+    "icons_library": "lucide-react",
+    "logo_placeholder": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/1200px-Emblem_of_India.svg.png",
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1624903715293-afe920c6adad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwzfHxJbmRpYW4lMjBydXJhbCUyMGdvdmVybm1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NzIxMjI3Mjd8MA&ixlib=rb-4.1.0&q=85",
+      "sarpanch": "https://images.unsplash.com/photo-1724996854069-a7d335193ee2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjB2aWxsYWdlJTIwc2FycGFuY2glMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NzIxMjI2Nzd8MA&ixlib=rb-4.1.0&q=85",
+      "gram_sabha": "https://images.unsplash.com/photo-1708593343442-7595427ddf7b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjB2aWxsYWdlJTIwY29tbXVuaXR5JTIwbWVldGluZ3xlbnwwfHx8fDE3NzIxMjI3Mzl8MA&ixlib=rb-4.1.0&q=85",
+      "school": "https://images.unsplash.com/photo-1763637675793-da207ba1fe18?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxJbmRpYW4lMjB2aWxsYWdlJTIwc2Nob29sJTIwYnVpbGRpbmclMjBjbGVhbnxlbnwwfHx8fDE3NzIxMjI2OTl8MA&ixlib=rb-4.1.0&q=85",
+      "water_project": "https://images.unsplash.com/photo-1696952316284-2d4755f0620b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjB2aWxsYWdlJTIwd2F0ZXIlMjB0YW5rfGVufDB8fHx8MTc3MjEyMjc0OXww&ixlib=rb-4.1.0&q=85",
+      "agriculture": "https://images.unsplash.com/photo-1695666403934-5929e4690900?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHw0fHxJbmRpYW4lMjBsdXNoJTIwZ3JlZW4lMjBmYXJtJTIwZmllbGR8ZW58MHx8fHwxNzcyMTIyNzYwfDA&ixlib=rb-4.1.0&q=85",
+      "road_construction": "https://images.unsplash.com/photo-1769430131218-7ae124948c77?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHw0fHxJbmRpYW4lMjB2aWxsYWdlJTIwY29uc3RydWN0aW9uJTIwcm9hZCUyMHdvcmt8ZW58MHx8fHwxNzcyMTIyNzEwfDA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "animations": {
+    "micro": {
+      "hover_lift": "hover:-translate-y-1 transition-transform duration-300",
+      "fade_in": "animate-in fade-in duration-500",
+      "slide_up": "animate-in slide-in-from-bottom-4 duration-500"
+    },
+    "marquee": "Slow smooth scroll for notices"
+  },
+  "specific_instructions_to_main_agent": [
+    "IMPORT 'Mukta' font from Google Fonts in index.css (weights 400, 500, 700, 800).",
+    "Use 'react-fast-marquee' for the Notices/News ticker.",
+    "Ensure all text is in MARATHI. Use Google Translate if needed but stick to formal terms (e.g., 'Mukhya Prishtha' for Home, 'Sampark' for Contact).",
+    "Admin Dashboard must be role-based. Super Admin can do everything. Editor cannot manage Users/Settings.",
+    "Use 'recharts' for Visitor Analytics in Admin Dashboard.",
+    "Use 'jspdf' for generating PDF certificates or receipts if required.",
+    "Ensure the Visitor Counter is stored in the backend (simple increment).",
+    "Use 'lucide-react' icons: 'Landmark' for Panchayat, 'Users' for Members, 'FileText' for Notices, 'Phone' for Contact.",
+    "Do NOT use gradients for backgrounds. Use solid colors or subtle patterns.",
+    "Respect the 'Saffron-White-Navy' color scheme strictly."
+  ],
+  "accessibility": {
+    "contrast": "Ensure text is slate-700 or slate-900 on white backgrounds.",
+    "focus": "All interactive elements must have visible focus rings (ring-2 ring-orange-500).",
+    "aria": "Add aria-labels to all icon-only buttons."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Don't make generic centered layouts. Use grids and asymmetry where appropriate.",
+    "Create depth through layered design elements (borders, shadows).",
+    "Every interaction needs micro-animations (hover, focus).",
+    "Use 2-3x more spacing than feels comfortable (p-8 instead of p-4).",
+    "Use 'sonner' for toast notifications.",
+    "Components MUST use named exports.",
+    "Pages MUST use default exports."
+  ]
+}
